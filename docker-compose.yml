@@ -1,0 +1,10 @@
+version: 2.32.3
+
+name: react-test-app
+
+services:
+  web:
+    build: .
+    container_name: web-app
+    ports:
+      - "3001:3000"
